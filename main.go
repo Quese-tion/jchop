@@ -22,7 +22,7 @@ type Value struct {
   Categories []string `json:"categories"`
 }
 
-func man()  {
+func main()  {
   user:=new(User)
   userdata,err:=http.Get("https://names.mcquay.me/api/v0/")
   if err != nil{log.Fatal(err)}
