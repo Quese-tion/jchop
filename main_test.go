@@ -2,8 +2,7 @@ package main
 
 import (
   "encoding/json"
-  "testing"
-}
+  "testing")
 
 
 func TestData(t *testing.T)  {
